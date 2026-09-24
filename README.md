@@ -4,7 +4,7 @@
 
 ## 启动
 
-仓库保存源码，不提交 `node_modules` 和 `dist`。**首次从 GitHub 下载或克隆后，需要先构建一次**，使用 Node.js 20.19+ 或 22.12+ 以及 pnpm，在项目目录执行：
+**首次从 GitHub 下载或克隆后，需要先构建一次**，使用 Node.js 20.19+ 或 22.12+ 以及 pnpm，在项目目录执行：
 
 ```powershell
 pnpm install --frozen-lockfile
