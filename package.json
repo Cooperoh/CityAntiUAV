@@ -1,0 +1,28 @@
+{
+  "name": "city-anti-uav",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "validate:sim": "tsx scripts/validate-sim.ts",
+    "validate:bounds": "tsx scripts/diagnose-bounds.ts",
+    "validate:behavior": "tsx scripts/validate-behavior.ts"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.7",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.0.8",
+    "tsx": "^4.20.5"
+  }
+}
